@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Xcode build artifacts
+build/
+DerivedData/
+
+# Xcode user-specific state
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Shared data that Xcode auto-generates (schemes, breakpoints)
+# Keep xcshareddata/xcschemes if you want shared schemes in version control;
+# the line below ignores the rest (e.g. IDEWorkspaceChecks.plist).
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods (not used here, but guarded in case added later)
+Pods/
+Podfile.lock
+
+# Instruments / profiling
+*.trace
+
+# Simulator device support (large, machine-local)
+*.dSYM/
+
+# Playground executables
+timeline.xctimeline
+playground.xcworkspace
+
+# Claude Code
+.claude/
